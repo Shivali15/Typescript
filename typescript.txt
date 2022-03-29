@@ -1,0 +1,26 @@
+1.installation:
+npm install -g typescript
+
+2.checking version :
+tsc -version
+tsc -v
+
+3.if not wroking :
+tsc.cmd -v
+
+4.Error :
+tsc.ps1 cannot be loaded because running scripts is disabled on this system
+
+solution:
+
+You can run this in PowerShell command. Be sure to run it as administrator:
+Execution this in powershell the error will reslove:
+
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+5.Extension of typescript :
+  .ts
+
+
+6.watching the typescript file:
+    tsc main.ts -w   

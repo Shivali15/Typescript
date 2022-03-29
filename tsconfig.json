@@ -1,0 +1,12 @@
+//  here we configure our typescript 
+
+
+
+{
+    "compilerOptions":{
+        //  root directory :src
+        "rootDir": "./src",
+        // output directory : dist
+        "outDir":"./dist"
+    }
+}
